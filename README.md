@@ -1,54 +1,42 @@
-# Remotion video
+# Remotion Product Launch Video Recreation
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A product launch video recreated in **React, TypeScript, and Remotion** based on the provided reference video.
 
-Welcome to your Remotion project!
+## Tech Stack
 
-## Commands
+- React
+- TypeScript
+- Remotion
+- CSS
+- SVG / Motion Graphics
 
-**Install Dependencies**
+## Features
 
-```console
-npm i
-```
+- Product launch animation
+- Animated typography
+- Smooth transitions
+- Green/yellow visual theme
+- UI/dashboard animation
+- Gradient and glow effects
+- Responsive scene composition
+- Frame-based animation using Remotion
 
-**Start Preview**
+## Project Structure
 
-```console
-npm run dev
-```
+```text
+src/
+├── scenes/
+│   ├── Scene01.tsx
+│   ├── Scene02.tsx
+│   ├── Scene03.tsx
+│   ├── Scene04.tsx
+│   ├── Scene05.tsx
+│   ├── Scene06.tsx
+│   ├── Scene07.tsx
+│   └── Scene08.tsx
+├── template.tsx
+└── Composition.tsx
 
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+public/
+└── assets/
+    └── scene02-background.jpg
